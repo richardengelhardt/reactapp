@@ -1,13 +1,13 @@
-const title = <h1>'My First React Element'</h1>
-const desc = <p>'I just want to know this pa kaba'</p>
-
+const desc = 'Just want to know this pa kaba'
+const name = 'Riec'
 
 //create header into the DOM!
-const header = React.createElement(
-    'header',
-    null,
-    title,
-    desc
+const header =(
+<header>
+    <h1>{ name }</h1>
+    <p>{ desc }</p>
+</header>
+
 );
 
 ReactDOM.render(
